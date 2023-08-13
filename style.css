@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#total{
+    background: rgba(255 255 255 / 0.2);
+    color: #fff;
+    max-width: 144px;
+    margin-top: 25px;
+    cursor: auto;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: end;
+}
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Courier, monospace;
+    background:linear-gradient(-45deg, #52ee76, #8bc34a, #132b33, #09362c)no-repeat;
+    animation: ani 5s ease forwards;
+    background-position: 100% 100%;
+    background-size: 0% 0%;
+}
+select{
+    cursor: pointer;
+    overflow: scroll;
+    width: 100%;
+    background: rgba(255 255 255 / 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgb(255 255 255 / 0.5);
+    border-right: 1px solid rgb(255 255 255 / 0.2);
+    border-bottom: 1px solid rgb(255 255 255 / 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.05);
+}
+.inpt{
+    width: 415px;
+}
+.form{
+    width: calc(1050px / 2);
+}
+#container {
+    height: 440px;
+    width: 1050px;
+    box-shadow: 0px -1px 73px -24px black;
+    border-radius: 10px;
+    padding: 55px;
+    display: flex;
+}
+@keyframes ani {
+    to {
+        background-size: 100% 100%;
+    }
+}
+.form .inputBox {
+    margin-top: 20px;
+}
+ input {
+    width: 100%;
+    background: rgba(255 255 255 / 0.2);
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgb(255 255 255 / 0.5);
+    border-right: 1px solid rgb(255 255 255 / 0.2);
+    border-bottom: 1px solid rgb(255 255 255 / 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
+}
+.form .inputBox input::placeholder {
+    color: #fff;
+}
+input[type="button"] {
+    max-width: 200px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
